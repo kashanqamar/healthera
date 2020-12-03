@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import Alamofire
-import SwiftyJSON
+
 
 enum APIError: Error {
     case networkError

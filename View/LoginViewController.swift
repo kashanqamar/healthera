@@ -8,7 +8,7 @@
 
 import UIKit
 import TextFieldEffects
-import Alamofire
+
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
         
