@@ -20,7 +20,13 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UINavigationBar.appearance().barTintColor = UIColor.systemGreen
+                
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         openLoginScreen()
     }
     
@@ -52,6 +58,16 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
         }
     }
 
+    
+    //MARK: - Open Popover Window
+    func openPopoverWindow() {
+                
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "SchedulePopOver") as? SchedulePopoverViewController
+            vc?.modalPresentationStyle = .popover
+            self.present(vc!, animated: true) 
+        
+    }
     
     // MARK:- Setup UI
     @objc func setupUI() {
@@ -176,6 +192,7 @@ extension ScheduleViewController {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //self.navigationController?.pushViewController(viewController, animated: true)
+        openPopoverWindow()
     }
 }
 

@@ -15,7 +15,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jVk-KI-HF3">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
                     </navigationBar>
                     <connections>
                         <segue destination="J12-2Z-NAb" kind="relationship" relationship="rootViewController" id="hwW-So-ybA"/>
@@ -121,7 +122,6 @@
                                             <outlet property="descriptionLabel" destination="0tE-ZB-6Sz" id="xBs-Ur-1fl"/>
                                             <outlet property="statusLabel" destination="FWp-or-Obe" id="sMi-cc-Q7G"/>
                                             <outlet property="titleLabel" destination="Hbl-jW-tiV" id="Gm2-EG-ZFs"/>
-                                            <segue destination="A3b-BJ-u2Y" kind="presentation" id="kGD-vL-FW8"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -153,22 +153,22 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forward" translatesAutoresizingMaskIntoConstraints="NO" id="zFi-tu-UO0">
-                                        <rect key="frame" x="370" y="21" width="20" height="21"/>
+                                        <rect key="frame" x="370" y="21" width="15" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="b9e-T6-O8p"/>
+                                            <constraint firstAttribute="width" constant="15" id="b9e-T6-O8p"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="jwk-20-7On">
-                                        <rect key="frame" x="17" y="21" width="20" height="21"/>
+                                        <rect key="frame" x="17" y="21" width="15" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="VU4-9w-7VT"/>
+                                            <constraint firstAttribute="width" constant="15" id="VU4-9w-7VT"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
                                     <constraint firstItem="zFi-tu-UO0" firstAttribute="top" secondItem="RtF-VN-bAh" secondAttribute="top" id="95I-wh-uAa"/>
-                                    <constraint firstAttribute="trailing" secondItem="zFi-tu-UO0" secondAttribute="trailing" constant="24" id="97w-ZG-T4A"/>
+                                    <constraint firstAttribute="trailing" secondItem="zFi-tu-UO0" secondAttribute="trailing" constant="29" id="97w-ZG-T4A"/>
                                     <constraint firstAttribute="bottom" secondItem="RtF-VN-bAh" secondAttribute="bottom" constant="34" id="BCf-Kx-qxj"/>
                                     <constraint firstItem="zFi-tu-UO0" firstAttribute="leading" secondItem="RtF-VN-bAh" secondAttribute="trailing" constant="31" id="DqC-mj-Gpq"/>
                                     <constraint firstItem="jwk-20-7On" firstAttribute="bottom" secondItem="zFi-tu-UO0" secondAttribute="bottom" id="FtQ-OH-T5V"/>
@@ -177,7 +177,7 @@
                                     <constraint firstItem="zFi-tu-UO0" firstAttribute="centerY" secondItem="RtF-VN-bAh" secondAttribute="centerY" id="OBD-Kd-KNv"/>
                                     <constraint firstItem="jwk-20-7On" firstAttribute="top" secondItem="RtF-VN-bAh" secondAttribute="top" id="Tcj-dN-pUa"/>
                                     <constraint firstItem="RtF-VN-bAh" firstAttribute="top" secondItem="WhB-pT-3V3" secondAttribute="top" constant="21" id="kcA-Qb-30c"/>
-                                    <constraint firstItem="RtF-VN-bAh" firstAttribute="leading" secondItem="jwk-20-7On" secondAttribute="trailing" constant="38" id="toZ-NW-i61"/>
+                                    <constraint firstItem="RtF-VN-bAh" firstAttribute="leading" secondItem="jwk-20-7On" secondAttribute="trailing" constant="43" id="toZ-NW-i61"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -195,7 +195,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Schedule" id="A3Y-71-lj6">
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="2mP-Ya-aby">
-                            <color key="tintColor" red="0.28627450980000002" green="0.58823529409999997" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="logout:" destination="J12-2Z-NAb" id="Xn2-wH-2L1"/>
                             </connections>
@@ -205,6 +205,7 @@
                         <outlet property="scheduledDateLabel" destination="RtF-VN-bAh" id="Zx1-nu-kXp"/>
                         <outlet property="tableView" destination="X0M-fN-NSf" id="lWy-cl-LaI"/>
                         <outlet property="userNameLabel" destination="tl9-ts-ZQY" id="9Ko-fp-Bjj"/>
+                        <segue destination="A3b-BJ-u2Y" kind="custom" identifier="popOverSegue" id="mKs-rt-8w9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eC7-JO-C6L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -214,13 +215,16 @@
         <!--Schedule Popover View Controller-->
         <scene sceneID="PS9-ou-EMY">
             <objects>
-                <viewController id="A3b-BJ-u2Y" customClass="SchedulePopoverViewController" customModule="Healthera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SchedulePopOver" id="A3b-BJ-u2Y" customClass="SchedulePopoverViewController" customModule="Healthera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eyg-oi-aRq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="1zO-NU-yyA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="300" height="134"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RLa-9W-aYP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -368,6 +372,9 @@
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
