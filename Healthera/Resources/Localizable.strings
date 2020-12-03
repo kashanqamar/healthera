@@ -1,0 +1,30 @@
+
+/**
+ *  Context: Title of ‘adherences’ screen
+ *  Max characters: 40
+ */
+"adherences.title" = "Schedule";
+
+/**
+ *  Context: Body of the error message shown when the movies fail to load
+ *  Max characters: 150
+ */
+"adherences.load.error.body" = "Something went wrong. Pull to refresh";
+
+/**
+ *  Context: Button on the movies error alert
+ *  Max characters: 40
+ */
+"adherences.actionButton" = "Okay";
+
+/**
+ *  Context: Body of the error message shown when the movies fail to load
+ *  Max characters: 150
+ */
+"login.load.error.body" = "Invalid Username or Password";
+
+/**
+ *  Context: Button on the movies error alert
+ *  Max characters: 40
+ */
+"login.load.error.actionButton" = "Okay";

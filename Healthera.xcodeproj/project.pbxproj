@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97090E2E9C9BB58645FD85E5 /* Pods_Healthera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B624596DD6DC45BB3550DF42 /* Pods_Healthera.framework */; };
+		97467307257289A200A8B274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97467306257289A200A8B274 /* AppDelegate.swift */; };
+		97467309257289A200A8B274 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97467308257289A200A8B274 /* SceneDelegate.swift */; };
+		9746730E257289A200A8B274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9746730C257289A200A8B274 /* Main.storyboard */; };
+		97467310257289A600A8B274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9746730F257289A600A8B274 /* Assets.xcassets */; };
+		97467313257289A600A8B274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97467311257289A600A8B274 /* LaunchScreen.storyboard */; };
+		9746731E257289A600A8B274 /* HealtheraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9746731D257289A600A8B274 /* HealtheraTests.swift */; };
+		97467329257289A600A8B274 /* HealtheraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97467328257289A600A8B274 /* HealtheraUITests.swift */; };
+		975B43F4257423390087298D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975B43F3257423390087298D /* APIManager.swift */; };
+		975B43FC257423680087298D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975B43FB257423680087298D /* Request.swift */; };
+		975B4402257424CD0087298D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975B4401257424CD0087298D /* Login.swift */; };
+		975B4412257433040087298D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 975B4411257433040087298D /* Localizable.strings */; };
+		975B441B257437810087298D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975B441A257437800087298D /* Strings.swift */; };
+		978999BE2573D5D900D117BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978999BD2573D5D900D117BA /* LoginViewController.swift */; };
+		978C20F42578408300EFE5C7 /* MedicineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978C20F32578408300EFE5C7 /* MedicineTableViewCell.swift */; };
+		978C20FC25785AE700EFE5C7 /* Remedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978C20FB25785AE700EFE5C7 /* Remedy.swift */; };
+		978C21042578EDE900EFE5C7 /* SchedulePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978C21032578EDE900EFE5C7 /* SchedulePopoverViewController.swift */; };
+		97AD5AE52576FAFB000B588A /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD5AE42576FAFB000B588A /* UserDefaults.swift */; };
+		97AD5AEA25777639000B588A /* Adherence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD5AE925777639000B588A /* Adherence.swift */; };
+		97AD5B0025782CDC000B588A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD5AFF25782CDC000B588A /* ScheduleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9746731A257289A600A8B274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974672FB257289A200A8B274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97467302257289A200A8B274;
+			remoteInfo = Healthera;
+		};
+		97467325257289A600A8B274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974672FB257289A200A8B274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97467302257289A200A8B274;
+			remoteInfo = Healthera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945000897757860C96BC3EC3 /* Pods-Healthera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthera.debug.xcconfig"; path = "Target Support Files/Pods-Healthera/Pods-Healthera.debug.xcconfig"; sourceTree = "<group>"; };
+		97467303257289A200A8B274 /* Healthera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healthera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97467306257289A200A8B274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97467308257289A200A8B274 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9746730D257289A200A8B274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9746730F257289A600A8B274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97467312257289A600A8B274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97467314257289A600A8B274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97467319257289A600A8B274 /* HealtheraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealtheraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9746731D257289A600A8B274 /* HealtheraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealtheraTests.swift; sourceTree = "<group>"; };
+		9746731F257289A600A8B274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97467324257289A600A8B274 /* HealtheraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealtheraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97467328257289A600A8B274 /* HealtheraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealtheraUITests.swift; sourceTree = "<group>"; };
+		9746732A257289A600A8B274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975B43F3257423390087298D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		975B43FB257423680087298D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		975B4401257424CD0087298D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		975B4411257433040087298D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		975B441A257437800087298D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		978999BD2573D5D900D117BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		978C20F32578408300EFE5C7 /* MedicineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTableViewCell.swift; sourceTree = "<group>"; };
+		978C20FB25785AE700EFE5C7 /* Remedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remedy.swift; sourceTree = "<group>"; };
+		978C21032578EDE900EFE5C7 /* SchedulePopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePopoverViewController.swift; sourceTree = "<group>"; };
+		97AD5AE42576FAFB000B588A /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		97AD5AE925777639000B588A /* Adherence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adherence.swift; sourceTree = "<group>"; };
+		97AD5AFF25782CDC000B588A /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		B624596DD6DC45BB3550DF42 /* Pods_Healthera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healthera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC813CEC2410315750CD5D23 /* Pods-Healthera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthera.release.xcconfig"; path = "Target Support Files/Pods-Healthera/Pods-Healthera.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97467300257289A200A8B274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97090E2E9C9BB58645FD85E5 /* Pods_Healthera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97467316257289A600A8B274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97467321257289A600A8B274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC90F8FC6E58D0A8105D392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B624596DD6DC45BB3550DF42 /* Pods_Healthera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		974672FA257289A200A8B274 = {
+			isa = PBXGroup;
+			children = (
+				97AD5AEE257778C6000B588A /* View */,
+				97467305257289A200A8B274 /* Healthera */,
+				9746731C257289A600A8B274 /* HealtheraTests */,
+				97467327257289A600A8B274 /* HealtheraUITests */,
+				97467304257289A200A8B274 /* Products */,
+				F6032BB86BD691D1C312038F /* Pods */,
+				1CC90F8FC6E58D0A8105D392 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97467304257289A200A8B274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97467303257289A200A8B274 /* Healthera.app */,
+				97467319257289A600A8B274 /* HealtheraTests.xctest */,
+				97467324257289A600A8B274 /* HealtheraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97467305257289A200A8B274 /* Healthera */ = {
+			isa = PBXGroup;
+			children = (
+				975B44192574376B0087298D /* Extensions */,
+				975B4410257432C70087298D /* Resources */,
+				975B4400257424740087298D /* Models */,
+				975B43F2257423240087298D /* API */,
+				97467306257289A200A8B274 /* AppDelegate.swift */,
+				97467308257289A200A8B274 /* SceneDelegate.swift */,
+				9746730C257289A200A8B274 /* Main.storyboard */,
+				9746730F257289A600A8B274 /* Assets.xcassets */,
+				97467311257289A600A8B274 /* LaunchScreen.storyboard */,
+				97467314257289A600A8B274 /* Info.plist */,
+			);
+			path = Healthera;
+			sourceTree = "<group>";
+		};
+		9746731C257289A600A8B274 /* HealtheraTests */ = {
+			isa = PBXGroup;
+			children = (
+				9746731D257289A600A8B274 /* HealtheraTests.swift */,
+				9746731F257289A600A8B274 /* Info.plist */,
+			);
+			path = HealtheraTests;
+			sourceTree = "<group>";
+		};
+		97467327257289A600A8B274 /* HealtheraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97467328257289A600A8B274 /* HealtheraUITests.swift */,
+				9746732A257289A600A8B274 /* Info.plist */,
+			);
+			path = HealtheraUITests;
+			sourceTree = "<group>";
+		};
+		975B43F2257423240087298D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				975B43F3257423390087298D /* APIManager.swift */,
+				975B43FB257423680087298D /* Request.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		975B4400257424740087298D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				975B4401257424CD0087298D /* Login.swift */,
+				97AD5AE925777639000B588A /* Adherence.swift */,
+				978C20FB25785AE700EFE5C7 /* Remedy.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		975B4410257432C70087298D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				975B4411257433040087298D /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		975B44192574376B0087298D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				975B441A257437800087298D /* Strings.swift */,
+				97AD5AE42576FAFB000B588A /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		978C20F22578405B00EFE5C7 /* MedicineCell */ = {
+			isa = PBXGroup;
+			children = (
+				978C20F32578408300EFE5C7 /* MedicineTableViewCell.swift */,
+			);
+			path = MedicineCell;
+			sourceTree = "<group>";
+		};
+		97AD5AEE257778C6000B588A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				978C20F22578405B00EFE5C7 /* MedicineCell */,
+				978999BD2573D5D900D117BA /* LoginViewController.swift */,
+				97AD5AFF25782CDC000B588A /* ScheduleViewController.swift */,
+				978C21032578EDE900EFE5C7 /* SchedulePopoverViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6032BB86BD691D1C312038F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945000897757860C96BC3EC3 /* Pods-Healthera.debug.xcconfig */,
+				FC813CEC2410315750CD5D23 /* Pods-Healthera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97467302257289A200A8B274 /* Healthera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9746732D257289A600A8B274 /* Build configuration list for PBXNativeTarget "Healthera" */;
+			buildPhases = (
+				ACE41B2635FBFBD629AC75BC /* [CP] Check Pods Manifest.lock */,
+				974672FF257289A200A8B274 /* Sources */,
+				97467300257289A200A8B274 /* Frameworks */,
+				97467301257289A200A8B274 /* Resources */,
+				DF891991B11AC7E36C18B5BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Healthera;
+			productName = Healthera;
+			productReference = 97467303257289A200A8B274 /* Healthera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97467318257289A600A8B274 /* HealtheraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97467330257289A600A8B274 /* Build configuration list for PBXNativeTarget "HealtheraTests" */;
+			buildPhases = (
+				97467315257289A600A8B274 /* Sources */,
+				97467316257289A600A8B274 /* Frameworks */,
+				97467317257289A600A8B274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9746731B257289A600A8B274 /* PBXTargetDependency */,
+			);
+			name = HealtheraTests;
+			productName = HealtheraTests;
+			productReference = 97467319257289A600A8B274 /* HealtheraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97467323257289A600A8B274 /* HealtheraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97467333257289A600A8B274 /* Build configuration list for PBXNativeTarget "HealtheraUITests" */;
+			buildPhases = (
+				97467320257289A600A8B274 /* Sources */,
+				97467321257289A600A8B274 /* Frameworks */,
+				97467322257289A600A8B274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97467326257289A600A8B274 /* PBXTargetDependency */,
+			);
+			name = HealtheraUITests;
+			productName = HealtheraUITests;
+			productReference = 97467324257289A600A8B274 /* HealtheraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974672FB257289A200A8B274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					97467302257289A200A8B274 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					97467318257289A600A8B274 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 97467302257289A200A8B274;
+					};
+					97467323257289A600A8B274 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 97467302257289A200A8B274;
+					};
+				};
+			};
+			buildConfigurationList = 974672FE257289A200A8B274 /* Build configuration list for PBXProject "Healthera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974672FA257289A200A8B274;
+			productRefGroup = 97467304257289A200A8B274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97467302257289A200A8B274 /* Healthera */,
+				97467318257289A600A8B274 /* HealtheraTests */,
+				97467323257289A600A8B274 /* HealtheraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97467301257289A200A8B274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97467313257289A600A8B274 /* LaunchScreen.storyboard in Resources */,
+				975B4412257433040087298D /* Localizable.strings in Resources */,
+				97467310257289A600A8B274 /* Assets.xcassets in Resources */,
+				9746730E257289A200A8B274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97467317257289A600A8B274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97467322257289A600A8B274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACE41B2635FBFBD629AC75BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Healthera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF891991B11AC7E36C18B5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Healthera/Pods-Healthera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Healthera/Pods-Healthera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Healthera/Pods-Healthera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974672FF257289A200A8B274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975B4402257424CD0087298D /* Login.swift in Sources */,
+				978C21042578EDE900EFE5C7 /* SchedulePopoverViewController.swift in Sources */,
+				975B441B257437810087298D /* Strings.swift in Sources */,
+				975B43FC257423680087298D /* Request.swift in Sources */,
+				978999BE2573D5D900D117BA /* LoginViewController.swift in Sources */,
+				97AD5AE52576FAFB000B588A /* UserDefaults.swift in Sources */,
+				975B43F4257423390087298D /* APIManager.swift in Sources */,
+				978C20F42578408300EFE5C7 /* MedicineTableViewCell.swift in Sources */,
+				978C20FC25785AE700EFE5C7 /* Remedy.swift in Sources */,
+				97AD5AEA25777639000B588A /* Adherence.swift in Sources */,
+				97467307257289A200A8B274 /* AppDelegate.swift in Sources */,
+				97AD5B0025782CDC000B588A /* ScheduleViewController.swift in Sources */,
+				97467309257289A200A8B274 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97467315257289A600A8B274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9746731E257289A600A8B274 /* HealtheraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97467320257289A600A8B274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97467329257289A600A8B274 /* HealtheraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9746731B257289A600A8B274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97467302257289A200A8B274 /* Healthera */;
+			targetProxy = 9746731A257289A600A8B274 /* PBXContainerItemProxy */;
+		};
+		97467326257289A600A8B274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97467302257289A200A8B274 /* Healthera */;
+			targetProxy = 97467325257289A600A8B274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9746730C257289A200A8B274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9746730D257289A200A8B274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97467311257289A600A8B274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97467312257289A600A8B274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9746732B257289A600A8B274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9746732C257289A600A8B274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9746732E257289A600A8B274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945000897757860C96BC3EC3 /* Pods-Healthera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9CTP24669;
+				INFOPLIST_FILE = Healthera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.mobile9workshop.Healthera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9746732F257289A600A8B274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC813CEC2410315750CD5D23 /* Pods-Healthera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9CTP24669;
+				INFOPLIST_FILE = Healthera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.mobile9workshop.Healthera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97467331257289A600A8B274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9CTP24669;
+				INFOPLIST_FILE = HealtheraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.mobile9workshop.HealtheraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Healthera.app/Healthera";
+			};
+			name = Debug;
+		};
+		97467332257289A600A8B274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9CTP24669;
+				INFOPLIST_FILE = HealtheraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.mobile9workshop.HealtheraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Healthera.app/Healthera";
+			};
+			name = Release;
+		};
+		97467334257289A600A8B274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9CTP24669;
+				INFOPLIST_FILE = HealtheraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.mobile9workshop.HealtheraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Healthera;
+			};
+			name = Debug;
+		};
+		97467335257289A600A8B274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9CTP24669;
+				INFOPLIST_FILE = HealtheraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.mobile9workshop.HealtheraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Healthera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974672FE257289A200A8B274 /* Build configuration list for PBXProject "Healthera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9746732B257289A600A8B274 /* Debug */,
+				9746732C257289A600A8B274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9746732D257289A600A8B274 /* Build configuration list for PBXNativeTarget "Healthera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9746732E257289A600A8B274 /* Debug */,
+				9746732F257289A600A8B274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97467330257289A600A8B274 /* Build configuration list for PBXNativeTarget "HealtheraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97467331257289A600A8B274 /* Debug */,
+				97467332257289A600A8B274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97467333257289A600A8B274 /* Build configuration list for PBXNativeTarget "HealtheraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97467334257289A600A8B274 /* Debug */,
+				97467335257289A600A8B274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974672FB257289A200A8B274 /* Project object */;
+}
