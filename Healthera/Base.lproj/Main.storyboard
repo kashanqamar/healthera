@@ -195,6 +195,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Schedule" id="A3Y-71-lj6">
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="2mP-Ya-aby">
+                            <color key="tintColor" red="0.28627450980000002" green="0.58823529409999997" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="logout:" destination="J12-2Z-NAb" id="Xn2-wH-2L1"/>
                             </connections>
