@@ -1,20 +1,16 @@
 PODS:
-  - SwiftyJSON (4.3.0)
   - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
-  - SwiftyJSON (~> 4.0)
   - TextFieldEffects
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - SwiftyJSON
     - TextFieldEffects
 
 SPEC CHECKSUMS:
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 8ff342e3231e6727ef6135d587334f517bd02b1b
+PODFILE CHECKSUM: 4f18b1b0d01ec898d1c978ef4a06414f3b240348
 
 COCOAPODS: 1.10.0

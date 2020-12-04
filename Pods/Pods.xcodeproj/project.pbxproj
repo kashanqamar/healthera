@@ -7,93 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C537564AC13BA5A81332E56E4EC12B2A /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F863EB66C17EFB7DABF65D6B869F939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F526A843E2049CEB761564CB62D36D9 /* MinoruTextField.swift */; };
-		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BA61671311D9C377D355C81157DCC7 /* SwiftyJSON-dummy.m */; };
-		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CAB7F4D2BA5C7CB1245433F3F7AF9 /* TextFieldEffects.swift */; };
-		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A17B19CDAD6F994FA80D7944CC911 /* TextFieldEffects-dummy.m */; };
-		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B2E747C915E2906C80122AEF64445 /* SwiftyJSON.swift */; };
-		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33E42F1E7513DFD078EF98EC7CB48D /* JiroTextField.swift */; };
-		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11A9D17CA9FB4DFB4D320FFA5D829 /* AkiraTextField.swift */; };
+		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */; };
+		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */; };
+		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */; };
+		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */; };
+		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */; };
 		96E1DAD98B2084B41C8A8C9ADA5D3FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977B37BFA90A478D32C0808737CFA23 /* YokoTextField.swift */; };
-		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4178A9C560F483251ECC8F019DCCA37F /* HoshiTextField.swift */; };
-		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6001297E26F274E725EEC72249FAFB9 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B102D2E2CD75F00232768212633FB378 /* Pods-Healthera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF7DE76C542EFFE824E672634814E4 /* Pods-Healthera-dummy.m */; };
-		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DAA06F3801DDE03DD6E12EF039D5D /* KaedeTextField.swift */; };
-		C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D14D11669A8092267954BFCC5B5FAB53 /* Pods-Healthera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97C4E0A270BB36FC943B2A0DA161FDD /* Pods-Healthera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94A1CA347D8583E99C0722F9A59A95 /* MadokaTextField.swift */; };
-		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B985662CD3D4AF39C0C3C255E0FFDE9 /* YoshikoTextField.swift */; };
-		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE286151BC4DDFDA63F9D59C33278C /* IsaoTextField.swift */; };
+		A46E2A61C4BBAA5997BA2C72BDF1A8AC /* Pods-Healthera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF7DE76C542EFFE824E672634814E4 /* Pods-Healthera-dummy.m */; };
+		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */; };
+		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */; };
+		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */; };
+		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */; };
+		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */; };
+		F54D2D48677DFD7BE43969A074782FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9CE2DDB641EB435C2AD3C186B2B3C91 /* Pods-Healthera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97C4E0A270BB36FC943B2A0DA161FDD /* Pods-Healthera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		037C5A5C93BB409F09C567EFA3F0E3AD /* PBXContainerItemProxy */ = {
+		A8413B6E7A2867D6D9C4DF6A82A0D59A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
 			remoteInfo = TextFieldEffects;
 		};
-		98508396EE83F096FAC26608EC9B93AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1018B56B39C5DFFF2BD25FE2A6840433 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
-		17717910D15C4E81006A523BE6DBC5B7 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		23B80B050E423966C198D752B414AA4A /* Pods-Healthera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Healthera-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34583F93D8CA20A23F02D77B116C26BD /* Pods-Healthera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Healthera.debug.xcconfig"; sourceTree = "<group>"; };
-		34DE286151BC4DDFDA63F9D59C33278C /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		3AC9C4161271A83439C5668BCB67CCE0 /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
-		4178A9C560F483251ECC8F019DCCA37F /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		4197172AEC17FCE77090711A3B9C30D0 /* Pods-Healthera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Healthera.modulemap"; sourceTree = "<group>"; };
-		4DC343BE4098DFCD0B38C2FE44A99FF9 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		4F526A843E2049CEB761564CB62D36D9 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
 		53BDE32CFBBB1660E97AC2BBE3EE9015 /* Pods-Healthera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Healthera.release.xcconfig"; sourceTree = "<group>"; };
-		56BA61671311D9C377D355C81157DCC7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		576A13A7E737E5C27D239857BF3BEC28 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		5B985662CD3D4AF39C0C3C255E0FFDE9 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		6C966861F28F9DA256DB57E82BF54EFA /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		742DAA06F3801DDE03DD6E12EF039D5D /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		7A1A17B19CDAD6F994FA80D7944CC911 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		7AFF7DE76C542EFFE824E672634814E4 /* Pods-Healthera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Healthera-dummy.m"; sourceTree = "<group>"; };
-		831E19621FDAC9773FF4CF8A4AD76A0B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		8BF11A9D17CA9FB4DFB4D320FFA5D829 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
+		8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		974B2E747C915E2906C80122AEF64445 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9EDF508495D29699A1BFD5C43D01A7 /* Pods-Healthera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Healthera-frameworks.sh"; sourceTree = "<group>"; };
-		AC8774871030F24F72181F9E937C13E2 /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		B198F919E709CD377EE286EFC1D1DBBD /* Pods-Healthera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Healthera-Info.plist"; sourceTree = "<group>"; };
-		C537564AC13BA5A81332E56E4EC12B2A /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		BE655CC77CE6BD758B8B805BCB0509EF /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
 		CC8326E1337774673F12E31EAFEBC7A8 /* Pods-Healthera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Healthera-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0DFAE0FB460EE58A3135A35694AF956 /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
-		D977B37BFA90A478D32C0808737CFA23 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
 		D97C4E0A270BB36FC943B2A0DA161FDD /* Pods-Healthera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Healthera-umbrella.h"; sourceTree = "<group>"; };
-		DA94A1CA347D8583E99C0722F9A59A95 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E55BCC013E440DCC8F85F98034EB968D /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		F59CAB7F4D2BA5C7CB1245433F3F7AF9 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		F6001297E26F274E725EEC72249FAFB9 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		F9F39E3E984FF10CF0FB568087A2D819 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
-		FA33E42F1E7513DFD078EF98EC7CB48D /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		F8E41FA8ECAD2D50B72379842D1A4CD1 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		FB59C18A776446B227FE38BB55571222 /* Pods_Healthera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Healthera.framework; path = "Pods-Healthera.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+		0D44085911208085BBF2F064138312C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */,
+				F54D2D48677DFD7BE43969A074782FDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,30 +85,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8B245E378EFE05F131A2DC5C56AE1C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F863EB66C17EFB7DABF65D6B869F939 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1884E8CA1E12045EA56400EC51F9C951 /* Support Files */ = {
+		13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17717910D15C4E81006A523BE6DBC5B7 /* SwiftyJSON.modulemap */,
-				56BA61671311D9C377D355C81157DCC7 /* SwiftyJSON-dummy.m */,
-				4DC343BE4098DFCD0B38C2FE44A99FF9 /* SwiftyJSON-Info.plist */,
-				831E19621FDAC9773FF4CF8A4AD76A0B /* SwiftyJSON-prefix.pch */,
-				C537564AC13BA5A81332E56E4EC12B2A /* SwiftyJSON-umbrella.h */,
-				F9F39E3E984FF10CF0FB568087A2D819 /* SwiftyJSON.debug.xcconfig */,
-				1018B56B39C5DFFF2BD25FE2A6840433 /* SwiftyJSON.release.xcconfig */,
+				922C4CCE5B0AA0DFC71B3B54929E3A95 /* TextFieldEffects */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		2E962403D16E1C4E34C3B16A97B56C3D /* Pods-Healthera */ = {
@@ -148,25 +113,6 @@
 			path = "Target Support Files/Pods-Healthera";
 			sourceTree = "<group>";
 		};
-		4C6395B411CA69C0324C1314BD8B758B /* TextFieldEffects */ = {
-			isa = PBXGroup;
-			children = (
-				8BF11A9D17CA9FB4DFB4D320FFA5D829 /* AkiraTextField.swift */,
-				4178A9C560F483251ECC8F019DCCA37F /* HoshiTextField.swift */,
-				34DE286151BC4DDFDA63F9D59C33278C /* IsaoTextField.swift */,
-				FA33E42F1E7513DFD078EF98EC7CB48D /* JiroTextField.swift */,
-				742DAA06F3801DDE03DD6E12EF039D5D /* KaedeTextField.swift */,
-				DA94A1CA347D8583E99C0722F9A59A95 /* MadokaTextField.swift */,
-				4F526A843E2049CEB761564CB62D36D9 /* MinoruTextField.swift */,
-				F59CAB7F4D2BA5C7CB1245433F3F7AF9 /* TextFieldEffects.swift */,
-				D977B37BFA90A478D32C0808737CFA23 /* YokoTextField.swift */,
-				5B985662CD3D4AF39C0C3C255E0FFDE9 /* YoshikoTextField.swift */,
-				C651928DE9C6AC758D76CDDBA3C75B2A /* Support Files */,
-			);
-			name = TextFieldEffects;
-			path = TextFieldEffects;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,26 +129,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7A2FA23A8513DF48A4BE4253C7CC2889 /* Products */ = {
+		922C4CCE5B0AA0DFC71B3B54929E3A95 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				FB59C18A776446B227FE38BB55571222 /* Pods_Healthera.framework */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
-				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+				5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */,
+				63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */,
+				F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */,
+				A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */,
+				B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */,
+				5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */,
+				D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */,
+				B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */,
+				FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */,
+				5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */,
+				9DBE3EA6B94EFF55E48A4115AA3128F3 /* Support Files */,
 			);
-			name = Products;
+			name = TextFieldEffects;
+			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
-		C651928DE9C6AC758D76CDDBA3C75B2A /* Support Files */ = {
+		9DBE3EA6B94EFF55E48A4115AA3128F3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				576A13A7E737E5C27D239857BF3BEC28 /* TextFieldEffects.modulemap */,
-				7A1A17B19CDAD6F994FA80D7944CC911 /* TextFieldEffects-dummy.m */,
-				3AC9C4161271A83439C5668BCB67CCE0 /* TextFieldEffects-Info.plist */,
-				E55BCC013E440DCC8F85F98034EB968D /* TextFieldEffects-prefix.pch */,
-				F6001297E26F274E725EEC72249FAFB9 /* TextFieldEffects-umbrella.h */,
-				AC8774871030F24F72181F9E937C13E2 /* TextFieldEffects.debug.xcconfig */,
-				D0DFAE0FB460EE58A3135A35694AF956 /* TextFieldEffects.release.xcconfig */,
+				F8E41FA8ECAD2D50B72379842D1A4CD1 /* TextFieldEffects.modulemap */,
+				8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */,
+				BE655CC77CE6BD758B8B805BCB0509EF /* TextFieldEffects-Info.plist */,
+				6C966861F28F9DA256DB57E82BF54EFA /* TextFieldEffects-prefix.pch */,
+				B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */,
+				BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */,
+				877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TextFieldEffects";
@@ -213,8 +168,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E4204B2C91969178028EC79D44A9D364 /* Pods */,
-				7A2FA23A8513DF48A4BE4253C7CC2889 /* Products */,
+				13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */,
+				E4F7611F8300DF199CC9513E9D3C182E /* Products */,
 				784719B82F8C7A98BAB4692E42635F8F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -227,41 +182,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E05E3F15296F01F93F0BCD6DD8833F21 /* SwiftyJSON */ = {
+		E4F7611F8300DF199CC9513E9D3C182E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				974B2E747C915E2906C80122AEF64445 /* SwiftyJSON.swift */,
-				1884E8CA1E12045EA56400EC51F9C951 /* Support Files */,
+				FB59C18A776446B227FE38BB55571222 /* Pods_Healthera.framework */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
 			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		E4204B2C91969178028EC79D44A9D364 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E05E3F15296F01F93F0BCD6DD8833F21 /* SwiftyJSON */,
-				4C6395B411CA69C0324C1314BD8B758B /* TextFieldEffects */,
-			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+		315442AF35BFD3AB5A030E871B0E3B85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ADB34D04919F7BC2602D62AA1D4694B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D14D11669A8092267954BFCC5B5FAB53 /* Pods-Healthera-umbrella.h in Headers */,
+				F9CE2DDB641EB435C2AD3C186B2B3C91 /* Pods-Healthera-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,18 +215,17 @@
 /* Begin PBXNativeTarget section */
 		06B24C6E55941CE4F3FFC9D35632D17C /* Pods-Healthera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 463DA788C63F3B7A27C4268CB0586290 /* Build configuration list for PBXNativeTarget "Pods-Healthera" */;
+			buildConfigurationList = 1C3B05E1A100ED451CE83DBE13A790A6 /* Build configuration list for PBXNativeTarget "Pods-Healthera" */;
 			buildPhases = (
-				8ADB34D04919F7BC2602D62AA1D4694B /* Headers */,
-				EB294DAAF2BA9BEE767DD7802018DF15 /* Sources */,
-				C8B245E378EFE05F131A2DC5C56AE1C2 /* Frameworks */,
-				5D34B11516F1C64EF3EEFDFE38C3EA4C /* Resources */,
+				315442AF35BFD3AB5A030E871B0E3B85 /* Headers */,
+				003EDE628A4F483417EA9FE979B418B1 /* Sources */,
+				0D44085911208085BBF2F064138312C9 /* Frameworks */,
+				DE2F0F1CD712155A3094E4D8FEC23482 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F06362742AC3D58BA5745375F2BD9F5 /* PBXTargetDependency */,
-				F89DCF7F884F3E8E8A2D95DCF997B779 /* PBXTargetDependency */,
+				8ABCE889C30F023B120363370DC84E00 /* PBXTargetDependency */,
 			);
 			name = "Pods-Healthera";
 			productName = "Pods-Healthera";
@@ -314,24 +250,6 @@
 			productReference = 9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
-				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
-				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
-				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -350,12 +268,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7A2FA23A8513DF48A4BE4253C7CC2889 /* Products */;
+			productRefGroup = E4F7611F8300DF199CC9513E9D3C182E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				06B24C6E55941CE4F3FFC9D35632D17C /* Pods-Healthera */,
-				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
 			);
 		};
@@ -369,14 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D34B11516F1C64EF3EEFDFE38C3EA4C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+		DE2F0F1CD712155A3094E4D8FEC23482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,20 +296,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+		003EDE628A4F483417EA9FE979B418B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
-				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB294DAAF2BA9BEE767DD7802018DF15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B102D2E2CD75F00232768212633FB378 /* Pods-Healthera-dummy.m in Sources */,
+				A46E2A61C4BBAA5997BA2C72BDF1A8AC /* Pods-Healthera-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,24 +325,55 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F06362742AC3D58BA5745375F2BD9F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = 98508396EE83F096FAC26608EC9B93AE /* PBXContainerItemProxy */;
-		};
-		F89DCF7F884F3E8E8A2D95DCF997B779 /* PBXTargetDependency */ = {
+		8ABCE889C30F023B120363370DC84E00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
 			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
-			targetProxy = 037C5A5C93BB409F09C567EFA3F0E3AD /* PBXContainerItemProxy */;
+			targetProxy = A8413B6E7A2867D6D9C4DF6A82A0D59A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3B90C7A7C1CA31C170D10B1E25E5BB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34583F93D8CA20A23F02D77B116C26BD /* Pods-Healthera.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Healthera/Pods-Healthera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Healthera/Pods-Healthera.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4E79D3FB74C1DB53263EBCFEB61A27A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC8774871030F24F72181F9E937C13E2 /* TextFieldEffects.debug.xcconfig */;
+			baseConfigurationReference = BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -473,44 +405,9 @@
 			};
 			name = Debug;
 		};
-		501C4DDF76F727E13770D67E891EDEF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1018B56B39C5DFFF2BD25FE2A6840433 /* SwiftyJSON.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6A06B27F9CF5EEC76A2FC699C330571F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0DFAE0FB460EE58A3135A35694AF956 /* TextFieldEffects.release.xcconfig */;
+			baseConfigurationReference = 877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -536,44 +433,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7AD3C90A22FDFB4AB0387D0A2CAAF00E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53BDE32CFBBB1660E97AC2BBE3EE9015 /* Pods-Healthera.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Healthera/Pods-Healthera-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Healthera/Pods-Healthera.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -709,43 +568,9 @@
 			};
 			name = Release;
 		};
-		A6D1856327C32BF7B667BB2BEEAC10FA /* Debug */ = {
+		F831A36293610ABA0208A8122C0BC6F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9F39E3E984FF10CF0FB568087A2D819 /* SwiftyJSON.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF041FC4D08481876A7416ED9E32F512 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34583F93D8CA20A23F02D77B116C26BD /* Pods-Healthera.debug.xcconfig */;
+			baseConfigurationReference = 53BDE32CFBBB1660E97AC2BBE3EE9015 /* Pods-Healthera.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -775,19 +600,20 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		463DA788C63F3B7A27C4268CB0586290 /* Build configuration list for PBXNativeTarget "Pods-Healthera" */ = {
+		1C3B05E1A100ED451CE83DBE13A790A6 /* Build configuration list for PBXNativeTarget "Pods-Healthera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF041FC4D08481876A7416ED9E32F512 /* Debug */,
-				7AD3C90A22FDFB4AB0387D0A2CAAF00E /* Release */,
+				3B90C7A7C1CA31C170D10B1E25E5BB42 /* Debug */,
+				F831A36293610ABA0208A8122C0BC6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -797,15 +623,6 @@
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6D1856327C32BF7B667BB2BEEAC10FA /* Debug */,
-				501C4DDF76F727E13770D67E891EDEF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

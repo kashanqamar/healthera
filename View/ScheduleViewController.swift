@@ -13,7 +13,7 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var scheduledDateLabel: UILabel!
     @IBOutlet weak var userNameLabel: UILabel!
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!    
     
     var adherenceData : [adherenceData] = []
     var remidyData : [remedyData] = []
@@ -52,21 +52,17 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
                         }
                     }
             self.present(vc!, animated: false) {
-                
-            print("successfully validated")
-        }
+            }
         }
     }
 
     
     //MARK: - Open Popover Window
     func openPopoverWindow() {
-                
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "SchedulePopOver") as? SchedulePopoverViewController
-            vc?.modalPresentationStyle = .popover
-            self.present(vc!, animated: true) 
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "SchedulePopOver") as? SchedulePopoverViewController
+        vc?.modalPresentationStyle = .popover
+        self.present(vc!, animated: true)
     }
     
     // MARK:- Setup UI
@@ -132,7 +128,8 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     
-
+    
+    
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
