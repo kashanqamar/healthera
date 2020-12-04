@@ -159,6 +159,9 @@
                                             <constraint firstAttribute="width" constant="20" id="GTx-8A-iFR"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="scheduleBackButtonPressed:" destination="J12-2Z-NAb" eventType="touchUpInside" id="0uE-d9-gn2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0A-34-LI8">
                                         <rect key="frame" x="371" y="21" width="20" height="20"/>
@@ -167,6 +170,9 @@
                                             <constraint firstAttribute="height" constant="20" id="gIm-jq-yx0"/>
                                         </constraints>
                                         <state key="normal" image="forward"/>
+                                        <connections>
+                                            <action selector="scheduleForwardButtonPressed:" destination="J12-2Z-NAb" eventType="touchUpInside" id="44T-Al-iu6"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>

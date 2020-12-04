@@ -74,7 +74,7 @@ final class APIManager {
             let jsonData = try? JSONSerialization.data(withJSONObject: json)
             result.httpBody = jsonData
         }
-//
+
         result.setValue("application/json", forHTTPHeaderField: "Content-Type")
         result.setValue("application/json", forHTTPHeaderField: "Accept")
         result.setValue(apiKey, forHTTPHeaderField: "client-id")

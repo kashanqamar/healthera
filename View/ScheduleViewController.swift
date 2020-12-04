@@ -13,7 +13,9 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var scheduledDateLabel: UILabel!
     @IBOutlet weak var userNameLabel: UILabel!
     
-    @IBOutlet weak var tableView: UITableView!    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var currentIndex : Int = 0
     
     var adherenceData : [adherenceData] = []
     var remidyData : [remedyData] = []
@@ -24,6 +26,24 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
     }
+    
+    @IBAction func scheduleBackButtonPressed(_ sender: UIButton) {
+        if(currentIndex == 0){return}
+        currentIndex-=1
+        print(currentIndex)
+        
+        fetchRemidyData(remidyId: self.adherenceData[currentIndex].remedy_id, patientId: self.adherenceData[currentIndex].patient_id)
+        
+    }
+    
+    
+    @IBAction func scheduleForwardButtonPressed(_ sender: UIButton) {
+        currentIndex+=1
+        print(currentIndex)
+        fetchRemidyData(remidyId: self.adherenceData[currentIndex].remedy_id, patientId: self.adherenceData[currentIndex].patient_id)
+        
+    }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -82,9 +102,12 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
                 DispatchQueue.main.async {
                     self?.adherenceData = adherenceData.data
                     self?.fetchRemidyData(remidyId: adherenceData.data.first?.remedy_id ?? "", patientId: adherenceData.data.first?.patient_id ?? "")
+                    let date = Date(timeIntervalSince1970: (self?.adherenceData[self?.currentIndex ?? 0].alarm_time ?? 0.0 / 1000.0))
+                    self?.scheduledDateLabel.text = date.toString(dateFormat: "EEEE, MMMM dd")
                     print(adherenceData.data.first?.remedy_id ?? "")
                 }
-            case .failure:
+            case .failure(let error):
+                print(error)
                 DispatchQueue.main.async {
                     self?.showError()
                 }
